@@ -1,10 +1,14 @@
 import React from 'react';
-import "./assets/styles/global.css";
 import Navbar from "./components/navbar/Navbar";
+import LinksPage from './pages/linksPage/LinksPage';
 
 
 const App = () => {
-return <Navbar/>;
+return  <>
+<Navbar/>
+<LinksPage/>
+</>
+;
 }
 
 export default App;

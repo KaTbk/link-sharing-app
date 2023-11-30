@@ -29,7 +29,7 @@ export const StyledMenu = styled.menu`
       }
     }
     label {
-      padding: 16px 24px;
+      padding: 16px 27px;
       display: flex;
       gap: 8px;
       justify-content: center;
@@ -56,6 +56,7 @@ export const StyledMenu = styled.menu`
       padding: 11px 16px;
       border-radius: 8px;
       border: 1px solid #633cff;
+      cursor: pointer;
       svg {
         width: 20px;
         aspect-ratio: 1;
